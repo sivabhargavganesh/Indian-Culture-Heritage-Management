@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APNA Bharath</title>
+    <style>
+        /* Body and Background */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('Background image.jpeg'); /* Replace with your background image */
+            background-size: cover;
+            background-position: center;
+            color: #333;
+        }
+
+        /* Hero Section */
+        .hero-section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+            color: #fff;
+            background-color: rgba(0, 0, 0, 0.5); /* Optional: Darken the background */
+        }
+
+        .hero-section h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+
+        .hero-section p {
+            font-size: 1.5rem;
+            margin: 10px 0 20px;
+        }
+
+        .hero-section a {
+            padding: 10px 20px;
+            background-color: #c0392b;
+            color: white;
+            text-decoration: none;
+            font-size: 1.2rem;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .hero-section a:hover {
+            background-color: #e74c3c;
+        }
+
+        /* Navbar */
+        .navbar {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent white */
+            padding: 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            z-index: 1;
+            backdrop-filter: blur(10px); /* Optional: Adds a slight blur effect to the background */
+        }
+
+        .logo img {
+            height: 40px;
+            width: 200px;
+        }
+
+        .search-bar {
+            margin-left: 1rem;
+            flex-grow: 1;
+        }
+
+        .search-bar input[type="text"] {
+            padding: 0.5rem;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            width: 100%;
+            max-width: 600px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav ul li {
+            margin: 0 1rem;
+            position: relative;
+        }
+
+        nav ul li a {
+            color: #000000;
+            text-decoration: none;
+            font-size: 1.2rem;
+            padding: 5px 10px;
+            transition: color 0.3s ease, background-color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #ffffff;
+            background-color: #c0392b;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Header with Navbar -->
+<div class="navbar">
+    <div class="logo">
+        <img src="videos/apna logo.jpg" alt="Logo"> <!-- Static logo path -->
+    </div>
+    <div class="search-bar">
+        <input type="text" placeholder="Search...">
+    </div>
+    <nav>
+        <ul>
+            <!-- Add logic for login/logout dynamically using JavaScript or backend -->
+            <li><a href="login.html">Login</a></li> <!-- Replace with actual login/logout logic -->
+            <li><a href="Monuments.html">Monuments</a></li>
+            <li><a href="food.html">Food</a></li>
+            <li><a href="festivals.html">Festivals</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="virtual-tours.html">Virtual Tours</a></li>
+        </ul>
+    </nav>
+</div>
+
+<!-- Main Content -->
+<div class="hero-section">
+    <div>
+        <h1>Welcome to APNA Bharath</h1>
+        <p>Explore India's rich heritage, culture, and historical places</p>
+        <a href="explore.html">Explore Now</a>
+    </div>
+</div>
+
+</body>
+</html>
